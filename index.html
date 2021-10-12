@@ -669,29 +669,35 @@
                 </div>
             </div>
         </div>
-        <form action="" method="post" class="contact__form grid">
+        <form 
+        action="mailto:wee11175@gmail.com"
+            method="POST"
+            enctype="multipart/form-data"
+            name="EmailForm"
+            class="contact__form grid" 
+        >
             <div class="contact__inputs grid">
                 <div class="contact__content">
                     <lable for="" class="contact__lable">Name</lable>
-                    <input type="text" name="name" class="contact__input">
+                    <input type="text" name="ContactName" class="contact__input">
                 </div>
-                <div class="contact__content">
+                <!-- <div class="contact__content">
                     <lable for="" class="contact__lable">Email</lable>
                     <input type="email" name="email" class="contact__input">
-                </div>
+                </div> -->
             </div>
-            <div class="contact__content">
+            <!-- <div class="contact__content">
                 <lable for="" class="contact__lable">Project</lable>
                 <input type="text" name="project" class="contact__input">
-            </div>
+            </div> -->
             <div class="contact__content">
                 <lable for="" class="contact__lable">Message</lable>
-                <textarea name="message" cols="0" rows="7" class="contact__input">
+                <textarea name=”ContactCommentt” cols="0" rows="7" class="contact__input">
 
                 </textarea>
             </div>
             <div>
-                <a href="" class="button button--flex">
+                <a href=""  class="button button--flex">
                     Send Message
                     <i class="uil uil-message button__icon"></i>
                 </a>
