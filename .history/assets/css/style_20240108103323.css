@@ -1287,7 +1287,7 @@ ul.services__modal-services.grid {
     }
     .services__container
     {
-        grid-template-columns: repeat(2,300px);
+        grid-template-columns: repeat(2,238px);
     }
     .portfolio__content
     {
